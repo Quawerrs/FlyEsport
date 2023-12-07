@@ -1,0 +1,196 @@
+html{
+overflow-x: hidden;
+}
+.tout{
+  background: linear-gradient(78deg, #7600ff, #00fff6);
+  background-size: 400% 400%;
+  -webkit-animation: AnimationName 30s ease infinite;
+  -moz-animation: AnimationName 30s ease infinite;
+  -o-animation: AnimationName 30s ease infinite;
+  animation: AnimationName 30s ease infinite;
+display: block;
+position: absolute;
+top: 0;
+left: 0;
+width: 100vw;
+height: 100vw;
+}
+nav {
+  background-color: #635e5e00;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  float: right;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  padding: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+.explication1{
+  display: block;
+  position: absolute;
+  top: 20vh;
+  right: 2vw;
+  width: 30vw;
+  height: 20vw;
+  border: 0.02vw solid #6d6d6d6c;
+  border-radius: 1vw;
+  background: rgba(195, 195, 221, 0.671);
+  backdrop-filter: blur(10px);
+  overflow-y: hidden;
+  z-index: 2;
+  animation: left-right 5s ease;
+}
+.explication1 p{
+  display: block;
+  position: absolute;
+  top: 8vh;
+  left: 13.5vw;
+  width: 15vw;
+  color: white;
+  text-align: left;
+  font-weight: bold;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 1vw;
+}
+.explication1 img{
+  display: grid;
+  position: absolute;
+  top: 9vh;
+  left: 2vw;
+  width: 7vw;
+  border: 0.02vw solid #6d6d6d;
+  border-radius: 1vw;
+  z-index: 0;
+}
+.youtube img{
+  width: 30vw;
+  border-radius: 0.4vw;
+  margin-top: 10vw;
+  margin-left: 10vw;
+}
+@-webkit-keyframes AnimationName {
+  0%{background-position:78% 0%}
+  50%{background-position:23% 100%}
+  100%{background-position:78% 0%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:78% 0%}
+  50%{background-position:23% 100%}
+  100%{background-position:78% 0%}
+}
+@-o-keyframes AnimationName {
+  0%{background-position:78% 0%}
+  50%{background-position:23% 100%}
+  100%{background-position:78% 0%}
+}
+@keyframes AnimationName {
+  0%{background-position:78% 0%}
+  50%{background-position:23% 100%}
+  100%{background-position:78% 0%}
+}
+* {
+  box-sizing:border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  padding: 64px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both
+}
+
+.column-66 {
+  float: left;
+  width: 66.66666%;
+  padding: 20px;
+}
+
+.column-33 {
+  float: left;
+  width: 33.33333%;
+  padding: 20px;
+}
+
+.large-font {
+  font-size: 48px;
+}
+
+.xlarge-font {
+  font-size: 64px
+}
+
+.button1{
+  display: block;
+  position: absolute;
+  border: 0.104vw solid black;
+  margin-left: 38vw;
+  margin-top: -7vw;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-radius: 0.4vw;
+  cursor: pointer;
+  background-color: #282828;
+}
+.button2{
+  display: block;
+  position: absolute;
+  border: 0.104vw solid black;
+  margin-left: 0vw;
+  margin-top: 2vw;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-radius: 0.4vw;
+  cursor: pointer;
+  background-color: #282828;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  .column-66,
+  .column-33 {
+    width: 100%;
+    text-align: center;
+  }
+  img {
+    margin: auto;
+  }
+}
