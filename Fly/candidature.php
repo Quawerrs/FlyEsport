@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fly-Esport</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/img/logo.webp" type="image/x-icon">
+</head>
+<body>
+  <div class="tout">
+<nav>
+  <ul class="nav">
+    <li><a href="index.php">ACCUEIL</a></li>
+    <li><a href="boutique.html">BOUTIQUE</a></li>
+    <li><a href="https://www.youtube.com/@FlyRusherFr">YOUTUBE</a></li>
+    <li><a href="https://discord.gg/WmyY6PDa86">DISCORD</a></li>
+    <li><a href="https://twitter.com/FlyRusherFr">TWITTER</a></li>
+    <li><a href="https://www.instant-gaming.com/?igr=gamer-eec0f36">INSTANT-GAMING</a></li>
+    <li><a href="link.html">NOS RÉSEAUX</a></li>
+    <li><a href="contact.html">CONTACT</a></li>
+    <li><a href="accueil.php">Se Conecter</a></li>
+    <button type="button" class="btn btn-light">Light</button>
+  </ul>  
+</nav>
+</body>
+</html>
